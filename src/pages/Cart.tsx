@@ -16,8 +16,8 @@ function Cart() {
       <div className="space-y-4">
         {items.map(({ product, quantity }) => (
           <div key={product.id}
-          className="flex items-center gap-4 rounded-lg border p-4">
-            <img src={product.image} alt={product.title} className="h-20 w-20 rounded object-cover"/>
+          className="flex items-center gap-4 rounded-lg border p-8">
+            <img src={product.image} alt={product.title} className="h-32 w-auto rounded object-cover"/>
 
             <div className="flex-1">
               <p className="font-medium">{product.title}</p>
